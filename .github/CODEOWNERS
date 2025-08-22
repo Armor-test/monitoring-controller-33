@@ -1,0 +1,42 @@
+# CODEOWNERS file for monitoring-controller-33
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-api @Armor-test/dept-logging @Armor-test/dept-test
+
+# Directory ownership
+/public/ @Armor-test/squad-mobile @Armor-test/dept-security
+/config/ @Armor-test/squad-ml @Armor-test/squad-cloud
+/helpers/ @Armor-test/squad-cloud @Armor-test/dept-release
+/deploy/ @Armor-test/team-governance @Armor-test/squad-qa
+/app/ @Armor-test/team-reporting @Armor-test/team-security
+/hooks/ @Armor-test/squad-search @Armor-test/dept-release
+/middleware/ @Armor-test/squad-reporting @Armor-test/dept-billing
+/vendor/ @Armor-test/dept-automation @Armor-test/squad-ml @Armor-test/dept-notifications
+/dist/ @Armor-test/squad-ml @Armor-test/dept-api @Armor-test/squad-ux
+/examples/ @Armor-test/dept-billing @Armor-test/team-core @Armor-test/unit-cloud
+/db/ @Armor-test/squad-research @Armor-test/unit-devops
+/web/ @Armor-test/dept-automation @Armor-test/grp-reporting @Armor-test/unit-cloud
+/static/ @Armor-test/dept-reporting @Armor-test/grp-search @Armor-test/unit-devops
+/assets/ @Armor-test/dept-notifications @Armor-test/dept-billing
+
+# File type ownership
+*.yml @Armor-test/dept-test @Armor-test/dept-logging @Armor-test/grp-ui
+*.tsx @Armor-test/unit-test @Armor-test/squad-tooling @Armor-test/squad-ml
+*.yaml @Armor-test/squad-qa @Armor-test/grp-reporting
+*.css @Armor-test/team-logging @Armor-test/grp-ui
+*.swift @Armor-test/dept-test @Armor-test/squad-qa
+*.ini @Armor-test/squad-cache @Armor-test/dept-data @Armor-test/unit-governance
+*.html @Armor-test/squad-cloud @Armor-test/dept-reporting @Armor-test/team-core
+*.lock @Armor-test/squad-frontend @Armor-test/squad-tooling
+*.properties @Armor-test/squad-product @Armor-test/squad-database
+*.cpp @Armor-test/team-research @Armor-test/unit-cloud @Armor-test/squad-frontend
+*.cs @Armor-test/dept-test @Armor-test/grp-ui
+*.kt @Armor-test/squad-api @Armor-test/team-notifications
+*.tf @Armor-test/squad-performance @Armor-test/team-research @Armor-test/squad-database
+*.js @Armor-test/unit-devops @Armor-test/dept-billing
+
+# Security and special files
+package.json @Armor-test/dependency-team @Armor-test/security
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
